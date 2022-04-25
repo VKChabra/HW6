@@ -18,7 +18,7 @@ const categoriesLists = document.querySelectorAll(".item")
 console.log(`Number of categories: ${categoriesLists.length}`);
 
 const ulInCategories = document.querySelectorAll("#categories>li");
-console.log(ulInCategories);
+// console.log(ulInCategories);
 ulInCategories.forEach(el => {
     console.log(`Category: ${el.firstElementChild.textContent},
     Elements: ${el.lastElementChild.children.length}`);
